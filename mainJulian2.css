@@ -1,0 +1,310 @@
+ul {
+  list-style-type: none;
+  margin: 5;
+  padding: 5;
+  overflow: hidden;
+  background-color: purple;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: orange;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: center;
+  background-color: purple;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  align-content: center;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: purple;}
+
+.dropdown:hover .dropdown-content {
+  align-content: center;
+  display: block;
+}ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: purple;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  align-content: center;
+  display: inline-block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: orange;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  align-content: center;
+  display: none;
+  position: center;
+  background-color: purple;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  align-content: center;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: orange;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+* {margin: 0;
+  padding: 0;
+  }
+  body {
+      font-family: 'Manjari', sans-serif;
+  }
+  
+  .content {
+    align-content: center;
+      background-color: white;
+      width: 90%;
+      max-width: 1000px;
+      margin: 1.5em auto;
+      gap: 1.5em;
+      padding: 50px ;
+  }
+  .text{
+    text-align: center;
+  display: grid;
+  gap: 1.6em;
+  grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .text > .content{
+    align-content: center;
+    
+      background-color: rgb(255, 255, 255);
+      padding: 20px;
+      border: 1px solid #000000;
+      grid-column: span 5;
+      background-color: rgb(255, 255, 255);
+      color: #000000;
+  }
+  
+  .footer{
+      background-color: rgb(255, 255, 255);
+      padding: 20px;
+      grid-column: 1/5;
+      background-color: purple;
+      color: #ffffff;
+      text-align: center;
+  }
+  
+  .text .menu{
+      grid-column: span 1;
+      background-color: purple;
+      color: #ffffff;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .text .quienes{
+      grid-column: span 1;
+      background-color: purple;
+      color: #ffffff;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .text .porque{
+      grid-column: span 1;
+      background-color: purple;
+      color: #ffffff;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .text .Objetivos{
+      grid-column: span 1;
+      background-color: purple;
+      color: #ffffff;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .text .sidebar{
+      grid-column: span 1;
+      background-color: purple;
+      color: #ffffff;
+      text-align: center;
+      border: 1px #000000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .text .menu:hover{
+      cursor: pointer;
+      color: black;
+      background-color: white;
+  }
+  
+  .text .quienes:hover{
+      cursor: pointer;
+      color: black;
+      background-color: white;
+  }
+  
+  .text .porque:hover{
+      cursor: pointer;
+      color: black;
+      background-color: white;
+  }
+  .text .Objetivos:hover{
+      cursor: pointer;
+      color: black;
+      background-color: white;
+  }
+  
+  .title:hover{
+      cursor: pointer;
+      color: black;
+      background-color: white;
+  }
+  
+  .sidebar .wpp{
+      background-color: rgb(255, 255, 255);
+      text-align: right;
+  }
+  .sidebar .fb{
+      background-color: rgb(255, 255, 255);
+      text-align: right;
+  }
+  .sidebar .ig{
+      background-color: rgb(255, 255, 255);
+      text-align: right;
+  }
+  .demo, .demo-2 {
+    text-align: right;
+    position: right;
+    left: 5px;
+    height:100px;
+    width:500px;
+}
+.demo .form-search, .demo-2 .form-search {
+  text-align: right;
+    position:right;
+    padding-left: 0cm;
+    top:0px;
+}
+.demo .form-search input[type=text],
+.demo-2 .form-search input[type=text] {
+  text-align: right;
+    -webkit-appearance: text;
+    -webkit-box: content-box;
+    font-family: inherit;
+    font-size: 100%;
+    border: solid 1px #ccc;
+    padding: 9px 18px;
+    width: 200px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+.demo-2 .form-search input[type=text] {
+  text-align: right;
+    width:60px; 
+    position:right;
+    margin-right: auto;
+    z-index:1000;
+    padding:8px 12px;
+    cursor:pointer;
+}
+.demo-2 .form-search div.input-group {
+    width:60px;
+    text-align: right;
+}
+.demo .form-search input[type=text]:focus {
+    width: 350px;
+    background-color: #fff;
+    text-align: right;
+}
+.demo-2 .form-search input[type=text]:focus {
+    position: right;
+    margin-right:60px;
+    width:250px;
+    text-align: right;
+}
+.demo .form-search button.btn,
+.demo-2 .form-search button.btn {
+  text-align: right;
+    padding:16px 12px;
+    border-top-right-radius:4px;
+    border-bottom-right-radius: 4px;
+    cursor:not-allowed;
+}
+.demo-2 .form-search button.btn {
+  padding:15px 15px;
+  text-align: right;
+
+}
+.text ¨{
+  position: center;
+  text-align: center;
+  text-align-last: center;
+  
+}
+.title:hover {
+  position: center;
+}
+  
